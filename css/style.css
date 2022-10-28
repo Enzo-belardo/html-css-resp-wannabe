@@ -129,7 +129,24 @@ img {
  ************************************************/
 @media only screen and (min-width:768px) {
     .container{
-        width: 100vw;
+        width: 100%;
     }
+    
+}
+@media only screen and (max-width:480px){
+    .container{
+        width: 100%;  
+    }
+    .row{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lessons .col {
+        margin: 2rem 0;
+        width: 100%;
+    }
+   
+
     
 }
